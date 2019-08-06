@@ -27,6 +27,10 @@
 <!-- Main Stylesheet File -->
 <link href="css/style.css" rel="stylesheet">
 
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+<link rel="stylesheet" type="text/css" href="css/Breadcrum.css">
+
 <!-- =======================================================
     Theme Name: Regna
     Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
@@ -105,12 +109,22 @@
 	<div class="container">
 		<div class="row about-container">
 			<div class="col-lg-12 content order-lg-2 order-2">
-				<p id="subnav">
-					<strong> <a href="home.html">HOME</a> >> ABOUT US </strong> &nbsp; &nbsp; &nbsp; &nbsp; <a
-						href="about_career.html">Career</a> <span>| </span> <a
-						href="about_client.html">Clients </a> <span>| </span> <a
-						href="home.html#contact">Contact Us </a>
-				</p>
+			<div class="row">
+					<div class="btn-group btn-breadcrumb">
+						<a href="home.html" class="btn btn-primary"><i
+							class="glyphicon glyphicon-home"></i></a> <a
+							href="about.html" class="btn btn-primary">
+							ABOUT US</a>
+					</div>
+					&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<div class="btn-group btn-breadcrumb">
+						<a href="about_career.html" class="btn btn-primary">
+							Career</a> <a href="about_client.html"
+							class="btn btn-primary"> Clients</a> <a
+							href="about_client.html" class="btn btn-primary">
+							Contact Us</a> 
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>
