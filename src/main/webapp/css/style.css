@@ -1082,7 +1082,7 @@ element.style {
     height: 50vh;
     margin-top: 60px;
     background: url(../img/corporate.png) center;
-    backgro	und-size: cover;
+    background-size: cover;
     position: relative;
 }
 
@@ -1150,6 +1150,16 @@ element.style {
 	position: relative;
 }
 
+.head-gov {
+	width: 100%;
+	margin-top:60px;
+	height: 40vh;
+	background: url(../img/gov_education.jpeg) center;
+	background-size: cover;
+	position: relative;
+}
+
+
 #network .box, #healthcare .box {
 	background: #e6e6e6;
 	color: black;
@@ -1180,11 +1190,11 @@ element.style {
 #heroid:before {
 	content: "";
 	background: rgba(0, 0, 0, 0.6);
-	position: #heroid {
+	position: fixed;
 	width: 100%;
 	height: 50vh;
 	margin-top:60px;
-	background: url(./img/services.jpg) top center;
+	background: url(/img/services.jpg) top center;
 	background-repeat: no-repeat;
 	background-size: 100% 50%;
 	position: relative;
@@ -1310,7 +1320,7 @@ element.style {
 	width: 100%;
 	margin-top:60px;
 	height: 50vh;
-	background: url(./img/services.jpg) top center;
+	background: url(/img/services.jpg) top center;
 	background-repeat: no-repeat;
 	background-size: 100% 50%;
 	position: relative;
