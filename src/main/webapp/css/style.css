@@ -1430,3 +1430,9 @@ padding:10px 0px 0px 30px !important;
 .nav-header{
 margin-top:10px;	
 }
+
+
+.list-container-slider{
+	flex: 1;
+	justify-content: center;
+}
